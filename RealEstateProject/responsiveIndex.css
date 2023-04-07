@@ -1,3 +1,72 @@
-@media (max-width:900px) {
-    
+@media screen and (max-width: 900px) {
+  .sec-2 {
+    height: 160vh;
+  }
+  .price {
+    position: absolute;
+    top: 34%;
+  }
+
+  .container1 {
+    width: 100vw;
+    height: 70vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container2{
+    width: 100vw;
+    height: 90vh;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-one-main {
+    min-width: 100%;
+    height: 130vh;
+    position: relative;
+    top: 4rem;
+  }
+
+  .waves{
+    position: relative;
+    top: 7rem;
+  }
+  .sec-one-two{
+    min-width: 100%;
+    height: 180vh;
+  }
+  .crd-tit-two{
+    width: 100%;
+     font-size: 1.4rem;
+  }
+  .exex{
+    width: 100%;
+     font-size: 1.4rem;
+  }
+  .imgleft {
+    width: 90%;
+    height: 90%;
+    background-image: url("images/leftImg.jpeg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1111;
+  }
+  .imgright{
+    width: 90%;
+    height: 90%;
+    background-image: url("images/rightImg.jpeg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1111;
+  }
+  .txt{
+    width: 90vw;
+    font-size: 1rem;
+  }
 }

@@ -326,6 +326,32 @@ background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 7
 }
 
 footer{
-    height: 70vh;
-    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1{
+    display: flex;
+}
+
+.navbar-nav{
+    flex: 1;
+    /* margin: auto !important;*/
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px -10px;
+    /* height: 10vh; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background: rgb(244, 223, 185);
+
+}   
+
+nav {
+    background: -webkit-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -o-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -ms-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -moz-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
 }

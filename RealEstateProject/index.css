@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     
 }
 
@@ -296,7 +297,7 @@ background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 7
     /* margin-top: 1rem; */
     position: relative;
     top: 1rem;
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 .imgleft{

@@ -9,7 +9,7 @@
 
   .container1 {
     width: 100vw;
-    height: 90vh;
+    height: 70vh;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@
 
   .container2{
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     display: inline-flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -26,11 +26,18 @@
   }
   .sec-one-main {
     min-width: 100%;
-    height: 140vh;
+    height: 130vh;
+    position: relative;
+    top: 4rem;
+  }
+
+  .waves{
+    position: relative;
+    top: 7rem;
   }
   .sec-one-two{
     min-width: 100%;
-    height: 140vh;
+    height: 180vh;
   }
   .crd-tit-two{
     width: 100%;

@@ -296,7 +296,7 @@ background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 7
     /* margin-top: 1rem; */
     position: relative;
     top: 1rem;
-    /* background-color: beige; */
+    background-color: beige;
 }
 
 .imgleft{
@@ -315,4 +315,16 @@ background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 7
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+
+.sec-5{
+    width:100vw;
+    height: 70vh;
+    
+}
+
+footer{
+    height: 70vh;
+    width: 100vw;
 }

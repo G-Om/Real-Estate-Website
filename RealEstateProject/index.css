@@ -1,0 +1,268 @@
+header{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul li{
+    margin-left: 0.3rem;
+    font-family: 'Ubuntu', sans-serif;
+
+    
+    
+}
+
+nav ul li:first-child{
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+.sub-prop{
+    margin-left: 1rem;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 93, 29);
+    border-radius: 2rem;
+    padding: 0px 20px;
+    
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 93, 29);
+    background-color: white;
+}
+
+
+img{
+    object-fit: cover;
+}
+
+.card-title{
+    color: orange;
+}
+
+
+
+.crd-tit-one{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.loc{
+    width: 100%;
+    display: inline-flex;
+    margin-left: -5px;
+    
+}
+
+.md-48{
+   font-size: 20px !important;
+}
+
+.text-loc{
+    font-size: 0.9rem;
+}
+
+
+/* card-mid-section css */
+.card-mid-sec{
+    width: 70%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.card-sec-1 , .card-sec-2{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.4rem;
+}
+
+.area{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.square{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.see{
+    width: 100%;
+    height: 20%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    font-weight: 500;
+    font-family: 'ubuntu', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+background: -o-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+background: -ms-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+background: -moz-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+
+}
+
+.price{
+    width: 13rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -o-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -ms-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -moz-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    color: white;
+    position: absolute;
+    top: 44%;
+    left: 4%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.featured{
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -o-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -ms-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -moz-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    color: white;
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    font-size: 0.7rem;
+    font-weight: 500;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.sec-2{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+    /* background-color: black; */
+}
+
+.sec-3{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    /* background: -webkit-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -o-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -ms-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -moz-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%); */
+
+
+}
+.sec-4{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;;
+    /* background-color: gainsboro; */
+    /* background: -webkit-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -o-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -ms-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: -moz-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%); */
+
+
+}
+
+.sec-5{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+}
+
+.container1{
+    margin-top: 1rem;
+    width: 90%;
+    
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container2{
+    position: relative;
+    top: 8rem;
+    width: 90%;
+    
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crd-tit-two{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -2rem;
+    font-size: 2.3rem;
+    color: rgb(231, 181, 0);
+
+    /* color: white; */
+
+}
+
+.exex{
+    position: relative;
+    top: 7rem;
+}
+
+.txt{
+    width: 37rem;
+    text-align: justify;
+    color: black
+}
+
+.ready{
+    padding: 5px 13px;
+    border: 2px solid gold;
+    border-radius: 5px;
+    color: gold;
+    background-color: white;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.waves{
+    /* margin-top: 1rem; */
+}
+
+a {
+    text-decoration: none;
+}

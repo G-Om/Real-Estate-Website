@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 
@@ -28,11 +28,7 @@ body{
 }
 
 nav ul li{
-    margin-left: 0.3rem;
-    font-family: 'Ubuntu', sans-serif;
-
-    
-    
+    margin-left: 0.3rem;    
 }
 
 nav ul li:first-child{
@@ -69,29 +65,20 @@ img{
 }
 
 .sec-2{
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    height: 80vh;
     display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
-
-    padding: 0rem 2rem;
-    /* padding: 0px 1rem; */
+    margin: auto;
+    padding: 2rem;
     /* background-color: black; */
 }
-
-
-
-
-
 
 .crd-tit-one{
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 600;
-    text-align: center;
-    margin-top: 2rem;
+    /* text-align: center; */
+    margin-top: 5rem;
 }
 
 .loc{
@@ -172,7 +159,7 @@ background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 7
     border-radius: 3px;
 }
 .featured{
-    width: 5rem;
+    width: 10rem;
     height: 2rem;
     display: flex;
     justify-content: center;
@@ -191,6 +178,7 @@ background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 7
     border-radius: 3px;
     text-transform: uppercase;
 }
+
 
 
 .sec-3{
@@ -272,22 +260,24 @@ background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 7
     /* margin-top: -2rem; */
     font-size: 2.5vw;
     color: rgb(231, 181, 0);
-    position: relative;
-    top: 6rem
+    /* position: relative;
+    top: 6rem */
 }
 
 .txt{
     width: 40vw;
     text-align: justify;
-    color: black
+    color:#c0a32e;
 }
 
 .ready{
-    padding: 5px 13px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
     border: 2px solid gold;
     border-radius: 5px;
-    color: gold;
-    background-color: white;
+    color: white;
+    background-color:rgb(231, 181, 0);
     font-family: 'ubuntu', sans-serif;
     font-weight: 500;
 }
@@ -301,57 +291,132 @@ background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 7
 }
 
 .imgleft{
-    width: 40%;
-    height: 100%;
-    background-image: url('images/leftImg.jpeg');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    /* background-color: aquamarine; */
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 .imgright{
-    width: 40%;
-    height: 100%;
-    background-image: url('images/rightImg.jpeg');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    width: auto;
+    object-fit:contain;
 }
 
-
-.sec-5{
-    width:100vw;
-    height: 70vh;
-    
-}
-
-footer{
-
-    display: flex;
-    flex-direction: column;
-}
-
-.sec1{
-    display: flex;
-}
-
-.navbar-nav{
-    flex: 1;
-    /* margin: auto !important;*/
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px -10px;
-    /* height: 10vh; */
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    background: rgb(244, 223, 185);
-
-}   
-
-nav {
+#Navbar {
     background: -webkit-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
     background: -o-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
     background: -ms-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
     background: -moz-linear-gradient(left, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
     background: linear-gradient(to right, rgb(225, 188, 128) 0%, rgb(200, 151, 70) 78%, rgb(199, 151, 72) 100%);
+    
+}
+#navElements {
+    background-color: rgba(238, 208, 172, 0.685);
+    box-shadow:  black;
+
+}
+
+#panel1, #panel2 {
+    background-color: aqua;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.pmHead, .psHead {
+    /* margin-bottom:3rem; */
+    padding-bottom: 5rem;
+    color:rgb(99 21 96);
+
+}
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.centered-container {
+text-align: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 2rem;
+}
+
+.area1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:medium;
+}
+
+.area2{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    font-size:small;
+}
+.container-row {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    border-radius: 1rem;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .featured{
+        width:10rem;
+        height: 2.5rem;
+        font-size:small;
+        padding: 1rem;
+    }
+    .txt{
+        display: flex;
+        width: 80vw;
+    }
+    .card {
+        margin: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1130px){
+    .square{
+        background-color: aquamarine;
+        height: 2rem;
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .pmHead {
+        padding-top: 4rem;
+    }
+    .txt{
+        display: flex;
+        width: 70vw;
+    }
 }

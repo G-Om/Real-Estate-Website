@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="indexFinal.css">
+</head>
+
+<body>
+  <section class="ftco-section">
+    <div class="wrap top-header d-none d-md-block">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col phone-content">
+            <p class="mb-0 phone"><span class="fa fa-phone"></span> <a href="#">+00 1234 567</a></p>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <div class="social-media">
+              <p class="mb-0 d-flex">
+                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i
+                      class="sr-only">Facebook</i></span></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i
+                      class="sr-only">Twitter</i></span></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i
+                      class="sr-only">Instagram</i></span></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i
+                      class="sr-only">Dribbble</i></span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index3.html"><img src="logo.jpg" class="logo-img" alt=""
+            width="140"><span></span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ftco-nav"
+          aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-bars" style="color: rgb(241 188 49);"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu dropdown-content" id="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Resedential Projects</a></li>
+                <li><a class="dropdown-item" href="#">New Projects</a></li>
+                <li><a class="dropdown-item" href="#">Commertial Prajects</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Property Management</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu dropdown-content">
+                <li><a class="dropdown-item" href="#">Option1</a></li>
+                <li><a class="dropdown-item" href="#">Option2</a></li>
+                <li><a class="dropdown-item" href="#">Option3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- Carousel Starts -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item banner-max-height active">
+        <img src="images/building2.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption banner-slider-inner d-flex">
+          <div class="banner-content">
+            <h1>Laxmi Supreme</h1>
+            <p>3BHK & 4BHK Carpet-1377sqft Price:2.25 Cr Onwards</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-item banner-max-height">
+        <img src="images/building1.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption banner-slider-inner d-flex">
+          <div class="banner-content">
+            <h1>Godrej Towns</h1>
+            <p>3BHK & 4BHK Carpet-1377sqft Price:2.25 Cr Onwards</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item banner-max-height">
+        <img src="images/building3.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption banner-slider-inner d-flex">
+          <div class="banner-content">
+            <h1>Mahindra Riverside</h1>
+            <p>3BHK & 4BHK Carpet-1377sqft Price:2.25 Cr Onwards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon opacity-100" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next opacity-100" type="button" data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Section one ends here -->
+
+
+  <!----------Section two starts here-->
+  <div class="container">
+    <div class="main-title">
+      <h1 class="card-tit-inner">Residential Projects</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="property">
+          <div class="property-img">
+            <div class="property-tag button alt featured">Featured</div>
+            <div class="property-price">
+              <i class="fa fa-inr"></i> 34.25 Lac - <i class="fa fa-inr"></i>69 Lac
+            </div><img src="images/building2.jpg" alt="fp" class="img-240-responsive">
+            <div class="property-overlay">
+              <a href="/Project/Details/PPROJ080423-183141-1328/ARV-NEW-TOWN-(PISOLI)-(453-SqFt-to-929-SqFt)----3425-Lac-onwards"
+                class="overlay-link" target="_blank"><i class="fa fa-link"></i></a><a
+                id="7bb996fe-cd10-49dc-954a-1e834d166f26" data-id="7bb996fe-cd10-49dc-954a-1e834d166f26"
+                class="overlay-link property-video" title="ARV NEW TOWN (PISOLI)" data-target="#project-vedio-modal"
+                data-toggle="modal"><i class="fa fa-video-camera"></i></a>
+            </div>
+          </div>
+          <div class="property-content">
+            <h1 class="title"><a target="_blank"
+                href="/Project/Details/PPROJ080423-183141-1328/ARV-NEW-TOWN-(PISOLI)-(453-SqFt-to-929-SqFt)----3425-Lac-onwards">ARV
+                NEW TOWN (PISOLI) </a></h1>
+            <h3 class="property-address"><a
+                href="/Project/Details/PPROJ080423-183141-1328/ARV-NEW-TOWN-(PISOLI)-(453-SqFt-to-929-SqFt)----3425-Lac-onwards"
+                target="_blank"><i class="fa fa-map-marker"></i>Pisoli</a></h3>
+            <ul class="facilities-list clearfix">
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">AREA</span> <br><span>453 Sq.Ft.-929 Sq.Ft.</span></li>
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">BEDROOM</span> <br><span> 1, 2, 3, 3 </span></li>
+            </ul>
+          </div><a target="_blank"
+            href="/Project/Details/PPROJ080423-183141-1328/ARV-NEW-TOWN-(PISOLI)-(453-SqFt-to-929-SqFt)----3425-Lac-onwards"
+            class="btn button-sm button-theme text-center" style="width:100%"> See Details </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="property">
+          <div class="property-img">
+            <div class="property-tag button alt featured">Featured</div>
+            <div class="property-price"><i class="fa fa-inr"></i> 42.39 Lac - <i class="fa fa-inr"></i> 85.96 Lac</div>
+            <img src="images/building1.jpg" alt="fp" class="img-240-responsive">
+            <div class="property-overlay"><a
+                href="/Project/Details/PPROJ020423-123410-1482/GOLDEN-VALLEY-(MUNDHWA)-(524-SqFt-to-1114-SqFt)----4239-Lac-onwards"
+                class="overlay-link" target="_blank"><i class="fa fa-link"></i></a><a
+                id="9cf2f963-527d-4057-bb9d-c529b9e4bcc4" data-id="9cf2f963-527d-4057-bb9d-c529b9e4bcc4"
+                class="overlay-link property-video" title="GOLDEN VALLEY (MUNDHWA)" data-target="#project-vedio-modal"
+                data-toggle="modal"><i class="fa fa-video-camera"></i></a></div>
+          </div>
+          <div class="property-content">
+            <h1 class="title">
+              <a target="_blank"
+                href="/Project/Details/PPROJ020423-123410-1482/GOLDEN-VALLEY-(MUNDHWA)-(524-SqFt-to-1114-SqFt)----4239-Lac-onwards">GOLDEN
+                VALLEY (MUNDHWA) </a></h1>
+            <h3 class="property-address"><a
+                href="/Project/Details/PPROJ020423-123410-1482/GOLDEN-VALLEY-(MUNDHWA)-(524-SqFt-to-1114-SqFt)----4239-Lac-onwards"
+                target="_blank"><i class="fa fa-map-marker"></i>Mundhwa</a></h3>
+            <ul class="facilities-list clearfix">
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">AREA</span> <br><span>524 Sq.Ft.-1114 Sq.Ft.</span></li>
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">BEDROOM</span> <br><span> 1, 2, 3 </span></li>
+            </ul>
+          </div><a target="_blank"
+            href="/Project/Details/PPROJ020423-123410-1482/GOLDEN-VALLEY-(MUNDHWA)-(524-SqFt-to-1114-SqFt)----4239-Lac-onwards"
+            class="btn button-sm button-theme text-center" style="width:100%"> See Details </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="property">
+          <div class="property-img">
+            <div class="property-tag button alt featured">Featured</div>
+            <div class="property-price"><i class="fa fa-inr"></i> 60.88 Lac - <i class="fa fa-inr"></i> 70.50 Lac</div>
+            <img src="images/building3.jpg" alt="fp" class="img-240-responsive">
+            <div class="property-overlay"><a
+                href="/Project/Details/PPROJ010423-181039-5502/SHUBH-EVAN-C1-(MUNDHWA)-(673-SqFt-to-766-SqFt)----6088-Lac-onwards"
+                class="overlay-link" target="_blank"><i class="fa fa-link"></i></a><a
+                id="2f4ea418-e789-4893-ac1b-4d5cb1a43472" data-id="2f4ea418-e789-4893-ac1b-4d5cb1a43472"
+                class="overlay-link property-video" title="SHUBH EVAN C1 (MUNDHWA)" data-target="#project-vedio-modal"
+                data-toggle="modal"><i class="fa fa-video-camera"></i></a></div>
+          </div>
+          <div class="property-content">
+            <h1 class="title"><a target="_blank"
+                href="/Project/Details/PPROJ010423-181039-5502/SHUBH-EVAN-C1-(MUNDHWA)-(673-SqFt-to-766-SqFt)----6088-Lac-onwards">SHUBH
+                EVAN C1 (MUNDHWA) </a></h1>
+            <h3 class="property-address"><a
+                href="/Project/Details/PPROJ010423-181039-5502/SHUBH-EVAN-C1-(MUNDHWA)-(673-SqFt-to-766-SqFt)----6088-Lac-onwards"
+                target="_blank"><i class="fa fa-map-marker"></i>Mundhwa</a></h3>
+            <ul class="facilities-list clearfix">
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">AREA</span> <br><span>673 Sq.Ft.-766 Sq.Ft.</span></li>
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">BEDROOM</span> <br><span> 2 </span></li>
+            </ul>
+          </div><a target="_blank"
+            href="/Project/Details/PPROJ010423-181039-5502/SHUBH-EVAN-C1-(MUNDHWA)-(673-SqFt-to-766-SqFt)----6088-Lac-onwards"
+            class="btn button-sm button-theme text-center" style="width:100%"> See Details </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="property">
+          <div class="property-img">
+            <div class="property-tag button alt featured">Featured</div>
+            <div class="property-price"><i class="fa fa-inr"></i> 71 Lac - <i class="fa fa-inr"></i> 91 Lac</div><img
+              src="images/building4.jpg" alt="fp" class="img-240-responsive">
+            <div class="property-overlay"><a
+                href="/Project/Details/PPROJ310323-155042-1249/K-CITY-(KESHAVNAGAR)-(755-SqFt-to-987-SqFt)----71-Lac-onwards"
+                class="overlay-link" target="_blank"><i class="fa fa-link"></i></a><a
+                id="fe5ffaa9-3941-4fd3-b862-7cf6cf9c8b7b" data-id="fe5ffaa9-3941-4fd3-b862-7cf6cf9c8b7b"
+                class="overlay-link property-video" title="K CITY (KESHAVNAGAR)" data-target="#project-vedio-modal"
+                data-toggle="modal"><i class="fa fa-video-camera"></i></a></div>
+          </div>
+          <div class="property-content">
+            <h1 class="title"><a target="_blank"
+                href="/Project/Details/PPROJ310323-155042-1249/K-CITY-(KESHAVNAGAR)-(755-SqFt-to-987-SqFt)----71-Lac-onwards">K
+                CITY (KESHAVNAGAR) </a></h1>
+            <h3 class="property-address"><a
+                href="/Project/Details/PPROJ310323-155042-1249/K-CITY-(KESHAVNAGAR)-(755-SqFt-to-987-SqFt)----71-Lac-onwards"
+                target="_blank"><i class="fa fa-map-marker"></i>Keshav nagar</a></h3>
+            <ul class="facilities-list clearfix">
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">AREA</span> <br><span>755 Sq.Ft.-987 Sq.Ft.</span></li>
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">BEDROOM</span> <br><span> 2, 3 </span></li>
+            </ul>
+          </div><a target="_blank"
+            href="/Project/Details/PPROJ310323-155042-1249/K-CITY-(KESHAVNAGAR)-(755-SqFt-to-987-SqFt)----71-Lac-onwards"
+            class="btn button-sm button-theme text-center" style="width:100%"> See Details </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="property">
+          <div class="property-img">
+            <div class="property-tag button alt featured">Featured</div>
+            <div class="property-price"><i class="fa fa-inr"></i> 60.53 Lac - <i class="fa fa-inr"></i> 97.17 Lac</div>
+            <img
+              src="https://b2bbricksblob.azureedge.net/propertyimages/globalrealtorspune@gmail.com/32f1b8cce89b468c8a2957da8ad8bda720230329160754181.jpg"
+              alt="fp" class="img-240-responsive">
+            <div class="property-overlay"><a
+                href="/Project/Details/PPROJ240323-180454-2070/NYATI-ELAN-CENTRAL---I-(WAGHOLI)-(755-SqFt-to-1216-SqFt)----6053-Lac-onwards"
+                class="overlay-link" target="_blank"><i class="fa fa-link"></i></a><a
+                id="32f1b8cc-e89b-468c-8a29-57da8ad8bda7" data-id="32f1b8cc-e89b-468c-8a29-57da8ad8bda7"
+                class="overlay-link property-video" title="NYATI ELAN CENTRAL - I (WAGHOLI)"
+                data-target="#project-vedio-modal" data-toggle="modal"><i class="fa fa-video-camera"></i></a></div>
+          </div>
+          <div class="property-content">
+            <h1 class="title"><a target="_blank"
+                href="/Project/Details/PPROJ240323-180454-2070/NYATI-ELAN-CENTRAL---I-(WAGHOLI)-(755-SqFt-to-1216-SqFt)----6053-Lac-onwards">NYATI
+                ELAN CENTRAL - I (WAGHOLI) </a></h1>
+            <h3 class="property-address"><a
+                href="/Project/Details/PPROJ240323-180454-2070/NYATI-ELAN-CENTRAL---I-(WAGHOLI)-(755-SqFt-to-1216-SqFt)----6053-Lac-onwards"
+                target="_blank"><i class="fa fa-map-marker"></i>Wagholi</a></h3>
+            <ul class="facilities-list clearfix">
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">AREA</span> <br><span>755 Sq.Ft.-1216 Sq.Ft.</span></li>
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">BEDROOM</span> <br><span> 2, 3 </span></li>
+            </ul>
+          </div><a target="_blank"
+            href="/Project/Details/PPROJ240323-180454-2070/NYATI-ELAN-CENTRAL---I-(WAGHOLI)-(755-SqFt-to-1216-SqFt)----6053-Lac-onwards"
+            class="btn button-sm button-theme text-center" style="width:100%"> See Details </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="property">
+          <div class="property-img">
+            <div class="property-tag button alt featured">Featured</div>
+            <div class="property-price"><i class="fa fa-inr"></i> 2.09 Cr - <i class="fa fa-inr"></i> 3.20 Cr</div><img
+              src="images/building1.jpg" alt="fp" class="img-240-responsive">
+            <div class="property-overlay"><a
+                href="/Project/Details/PPROJ240223-161551-1163/LIVIENCE-ALEENTA-(BANER)-(1438-SqFt-to-2200-SqFt)----209-Cr-onwards"
+                class="overlay-link" target="_blank"><i class="fa fa-link"></i></a><a
+                id="0a983bb2-f874-433d-905d-7bf8a63d0e45" data-id="0a983bb2-f874-433d-905d-7bf8a63d0e45"
+                class="overlay-link property-video" title="LIVIENCE ALEENTA (BANER)" data-target="#project-vedio-modal"
+                data-toggle="modal"><i class="fa fa-video-camera"></i></a></div>
+          </div>
+          <div class="property-content">
+            <h1 class="title"><a target="_blank"
+                href="/Project/Details/PPROJ240223-161551-1163/LIVIENCE-ALEENTA-(BANER)-(1438-SqFt-to-2200-SqFt)----209-Cr-onwards">LIVIENCE
+                ALEENTA (BANER) </a></h1>
+            <h3 class="property-address"><a
+                href="/Project/Details/PPROJ240223-161551-1163/LIVIENCE-ALEENTA-(BANER)-(1438-SqFt-to-2200-SqFt)----209-Cr-onwards"
+                target="_blank"><i class="fa fa-map-marker"></i>Baner Pashan Link Road</a></h3>
+            <ul class="facilities-list clearfix">
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">AREA</span> <br><span>1438 Sq.Ft.-2200 Sq.Ft.</span></li>
+              <li style="font-size:11px;line-height:18px; height:40px; width:50%;"><span
+                  style="color: #7b7a7a;font-weight: 600;">BEDROOM</span> <br><span> 3, 4, 5 </span></li>
+            </ul>
+          </div><a target="_blank"
+            href="/Project/Details/PPROJ240223-161551-1163/LIVIENCE-ALEENTA-(BANER)-(1438-SqFt-to-2200-SqFt)----209-Cr-onwards"
+            class="btn button-sm button-theme text-center" style="width:100%"> See Details </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-xl-2" style="margin-top: 2rem;">
+    <img src="images/wave.svg" alt="" class="w-100 waves">
+    <div class="column" style="align-content: center;">
+      <div class="">
+
+
+        <img class="imgleft" src="images/leftImg.jpeg">
+      </div>
+    </div>
+    <div class="column">
+      <div class="centered-container">
+        <div>
+          <h1 class="pmHead">Property Management</h1>
+        </div>
+
+        <div class="txt">
+          We are Property Consultants, Property Dealers, Property Caretaker,
+          Residential Caretaker and our set up is situated in Pune, Maharashtra, India.
+          A Property Manager overseeing Commercial Real Estate might be in charge of diverse areas,
+          like Landscaping and Building Maintenance. Residential Property Caretakers can have
+          numerous tasks, such as collecting rent, enforcing community living standards, and
+          addressing tenant complaints, Property Tax, Agreements, Police Verification,
+          Inspection of properties etc. If you are facing such types of problem regarding your
+          properties, call to United Realtors. We are having properties all around city of Pune
+          and PCMC area and our system is become successful.
+        </div>
+        <div>
+          <button class="ready">Read More</button>
+        </div>
+      </div>
+    </div>
+    <img src="images/wave (1).svg" alt="" class="w-100 waves">
+  </div>
+
+  <!-- Section 4 trial -->
+  <div class="row row-cols-1 row-cols-xl-2" style="margin-top: 0rem;">
+    <img src="images/wave.svg" alt="" class="w-100 waves">
+    <div class="column col-md-push">
+      <div class="centered-container">
+        <div>
+          <h1 class="psHead">Our Services</h1>
+        </div>
+
+        <div class="txt">
+          We are Property Consultants, Property Dealers, Property Caretaker, Residential
+          Caretaker and our set up is situated in Pune, Maharashtra, India. A Property Manager
+          overseeing Commercial Real Estate might be in charge of diverse areas, like Landscaping
+          and Building Maintenance. Residential Property Caretakers can have numerous tasks, such as
+          collecting rent, enforcing community living standards, and addressing tenant complaints,
+          Property Tax, Agreements, Police Verification, Inspection of properties etc. If you are
+          facing such types of problem regarding your properties, call to United Realtors. We are
+          having properties all around city of Pune and PCMC area and our system is become successful.
+          [A well Organized Reliable Caretaking Firm (Property Management Firm)].
+        </div>
+        <div>
+          <button class="ready">Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="column" style="align-content: center;">
+      <div class="centered-container">
+
+
+        <img class="imgleft" src="images/rightImg.jpeg" class="imgright">
+      </div>
+    </div>
+    <img src="images/wave (1).svg" alt="" class="w-100 waves">
+  </div>
+
+  </main>
+
+
+  <footer class="text-center text-lg-start bg-dark text-light w-100">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="material-icons"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div>
+          <h4 class="text-uppercase fw-bold mb-4">
+            <img src="logo.jpg" class="logo-img" alt="" width="140">
+            <i class="fas fa-gem me-3"></i>
+          </h4>
+        </div>
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4" id="footer-txt">
+            <!-- Content -->
+            <p style="font-size:13px;">
+              Prop Vision is a company with rich experience in real estate advisory that
+              believes each real estate experience should be a simple and successful execution
+              from a Dream to Reality. Our team of Real Estate advisors is driven by the
+              fundamental values of customer satisfaction, credibility and professionalism 360
+              Realtors has some of the best professionals in real estate industry who specialize in
+              finding property just as per your requirement.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Services
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Property Management</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Rentals</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Explore</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">About</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-start p-4 w-100 border-top" style="background-color: rgba(33, 35, 38, 0.1);">
+      © 2021 Copyright
+      <span class="text-reset fw">Propvision.com. 2019 Comprehensive Property Portal in India. All Right
+        Reserved.</span>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
